@@ -11,8 +11,8 @@ if len(sys.argv) == 4 and sys.argv[3].isdigit() and sys.argv[2].isdigit():
 else:
 	print("====================================================")
 	print("Invalid input detected")
-	print("Syntax: python3 scanner.py 10.10.0.3 1 80")
-	print("======  python3 scanner.py <ip> <min port> <maxport>")
+	print("Syntax: python3 port_scanner.py 10.10.0.3 1 80")
+	print("======  python3 port_scanner.py <ip> <min port> <maxport>")
 	print("====================================================")
 	sys.exit()
 #Banner
